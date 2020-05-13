@@ -13,7 +13,7 @@ processSale.view.LogHandler
 #### Observer pattern relevant classes:  
 processSale.view.TotalRevenueView  
 processSale.model.TransactionObserver  
-###### Used in:  
+##### Used in:  
 processSale.view.View  
 processSale.controller.Controller  
 processSale.model.Sale  
