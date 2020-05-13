@@ -163,6 +163,14 @@ public class Sale {
     }
 
     /**
+     * Updates <code>totalPrice</code> with a discounted price.
+     * @param discountAmount amount to update with.
+     */
+    public void addDiscount(int discountAmount) {
+        totalPrice -= discountAmount;
+    }
+
+    /**
      * Prompts all observers to initiate any sequence reliant on the end of a sale.
      */
     public void endSale() {

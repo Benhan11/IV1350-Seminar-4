@@ -1,9 +1,6 @@
 package processSale.controller;
 
-import processSale.integration.InvalidItemIdentifierException;
-import processSale.integration.InventorySystemException;
-import processSale.integration.Printer;
-import processSale.integration.DBHandler;
+import processSale.integration.*;
 import processSale.dto.DisplayInfoDTO;
 import processSale.model.InvalidItemDTOException;
 import processSale.model.InvalidQuantityException;
@@ -92,10 +89,11 @@ public class Controller {
      * if the request for a discount is valid which is decided by the <code>customerId</code>.
      * @param customerId Id to decide eligibility for discount.
      */
-    public void discountRequest(int customerId) {
+    public int discountRequest(int customerId) {
         if (handler.checkIdValidity(customerId)) {
-
+            sale.addDiscount(new ItemSpecialsDiscountFinder().findDiscount(sale.getSaleInfo()) + new SalePriceDiscountFinder().findDiscount(sale.getSaleInfo()));
         }
+        return sale.getTotalPrice();
     }
 
     /**

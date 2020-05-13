@@ -238,3 +238,2723 @@ Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1
 	at processSale.model.Sale.addItem(Sale.java:44)
 	at processSale.controller.Controller.registerItem(Controller.java:59)
 	... 3 more
+2020-05-13 21:07:13.585, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:63)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:59)
+	... 3 more
+2020-05-13 21:07:13.599, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:63)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:59)
+	... 3 more
+2020-05-13 21:07:13.600, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:63)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:59)
+	... 3 more
+2020-05-13 21:07:13.602, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:63)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:59)
+	... 3 more
+2020-05-13 21:07:13.607, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:63)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:59)
+	... 3 more
+2020-05-13 21:07:13.607, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:63)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:59)
+	... 3 more
+2020-05-13 21:07:13.607, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:63)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:59)
+	... 3 more
+2020-05-13 21:07:13.608, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:63)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:59)
+	... 3 more
+2020-05-13 21:07:13.608, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:63)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:59)
+	... 3 more
+2020-05-13 21:07:13.608, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:63)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:59)
+	... 3 more
+2020-05-13 21:07:13.609, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:63)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:59)
+	... 3 more
+2020-05-13 21:07:13.609, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:63)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:59)
+	... 3 more
+2020-05-13 21:33:41.898, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:62)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:41.910, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:69)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:41.911, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:69)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:41.913, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:41.916, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:62)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:41.916, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:69)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:41.917, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:69)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:41.917, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:41.918, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:62)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:41.918, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:69)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:41.918, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:69)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:41.918, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:58.400, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:62)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:58.413, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:69)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:58.413, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:69)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:58.416, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:58.419, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:62)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:58.419, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:69)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:58.420, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:69)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:58.420, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:58.420, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:62)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:58.421, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:69)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:58.421, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:69)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:33:58.421, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:45:19.409, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:45:19.423, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:45:19.423, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:45:19.426, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:45:19.429, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:45:19.430, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:45:19.430, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:45:19.430, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:45:19.431, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:45:19.431, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:45:19.431, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 21:45:19.431, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:65)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:61)
+	... 3 more
+2020-05-13 22:01:39.722, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:01:39.735, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:01:39.736, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:01:39.738, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:01:39.742, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:01:39.743, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:01:39.743, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:01:39.744, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:01:39.744, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:01:39.744, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:01:39.745, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:01:39.745, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:02:59.251, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:02:59.263, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:02:59.263, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:02:59.266, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:02:59.270, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:02:59.271, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:02:59.271, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:02:59.271, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:02:59.272, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:02:59.272, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:02:59.272, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:02:59.273, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:03:52.551, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:03:52.563, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:03:52.563, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:03:52.566, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:03:52.576, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:03:52.576, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:03:52.577, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:03:52.577, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:03:52.578, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:03:52.579, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:03:52.579, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:03:52.579, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:04:18.173, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:04:18.186, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:04:18.186, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:04:18.189, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:04:37.282, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:04:37.295, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:04:37.295, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:04:37.298, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:07:20.418, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:07:20.431, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:07:20.431, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:07:20.433, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:07:52.847, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:07:52.860, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:07:52.860, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:07:52.863, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:09:32.039, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:09:32.052, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:09:32.052, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:09:32.055, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:09:41.889, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:09:41.902, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:09:41.902, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:09:41.905, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:10:23.307, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:10:23.319, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:10:23.320, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:10:23.322, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:10:48.829, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:10:48.842, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:10:48.842, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:10:48.845, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:27.707, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:27.719, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:27.719, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:27.722, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:27.726, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:27.726, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:27.727, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:27.727, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:27.728, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:27.728, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:27.728, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:27.728, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:40.752, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:40.765, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:40.765, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:40.768, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:40.772, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:40.773, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:40.773, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:40.773, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:40.774, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:40.774, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:40.774, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:11:40.775, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:14:24.839, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:14:24.853, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:14:24.853, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:14:24.856, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:14:24.860, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:14:24.861, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:14:24.861, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:14:24.861, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:14:24.862, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:14:24.862, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:14:24.862, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:14:24.863, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:07.090, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:07.102, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:07.102, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:07.105, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:07.109, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:07.109, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:07.109, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:07.110, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:07.110, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:07.110, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:07.111, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:07.111, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:25.635, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:25.647, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:25.648, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:25.650, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:25.654, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:25.654, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:25.654, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:25.655, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:25.655, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:25.655, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:25.656, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:25.656, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:45.704, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:45.717, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:45.717, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:45.720, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:45.724, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:45.724, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:45.725, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:45.725, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:45.725, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:45.726, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:45.726, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:15:45.726, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:26:54.221, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:26:54.233, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:26:54.233, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:26:54.236, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:26:54.240, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:26:54.240, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:26:54.241, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:26:54.241, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:26:54.242, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:26:54.242, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:26:54.242, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:26:54.243, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:27:38.907, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:27:38.919, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:27:38.920, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:27:38.922, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:27:38.926, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:27:38.927, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:27:38.927, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:27:38.927, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:27:38.928, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:27:38.928, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:27:38.928, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:27:38.929, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:29:44.148, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:29:44.160, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:29:44.161, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:29:44.164, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:29:44.168, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:29:44.169, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:29:44.169, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:29:44.169, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:29:44.170, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:29:44.170, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:29:44.171, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:29:44.171, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:30:44.711, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:30:44.724, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:30:44.724, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:30:44.727, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:30:44.730, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:30:44.730, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:30:44.731, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:30:44.731, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:30:44.732, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:30:44.732, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:30:44.732, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:30:44.733, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:31:31.481, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:31:31.494, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:31:31.494, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:31:31.498, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:31:31.502, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:31:31.502, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:31:31.502, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:31:31.503, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:31:31.503, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:31:31.504, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:31:31.504, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:31:31.505, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:38:46.395, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:38:46.408, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:38:46.408, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:38:46.411, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:38:46.414, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:38:46.415, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:38:46.415, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:38:46.416, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:38:46.416, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:38:46.417, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:38:46.417, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:38:46.417, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:39:59.237, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:39:59.249, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:39:59.250, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:39:59.252, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:39:59.256, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:39:59.256, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:39:59.257, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:39:59.257, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:39:59.257, Exception thrown: An error has occurred, please try again.
+processSale.controller.OperationFailedException: An error has occurred, please try again.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:46)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InventorySystemException: An error has occurred, please try again.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:61)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:39:59.258, Exception thrown: Could not find Helicopter propeller in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter propeller in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:52)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter propeller in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:39:59.258, Exception thrown: Could not find Helicopter gyroscope in the inventory.
+processSale.controller.OperationFailedException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:61)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.integration.InvalidItemIdentifierException: Could not find Helicopter gyroscope in the inventory.
+	at processSale.integration.DBHandler.searchInventory(DBHandler.java:68)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more
+2020-05-13 22:39:59.258, Exception thrown: An invalid quantity of -1 was entered.
+processSale.controller.OperationFailedException: An invalid quantity of -1 was entered.
+	at processSale.controller.Controller.registerItem(Controller.java:60)
+	at processSale.view.View.registerItem(View.java:94)
+	at processSale.view.View.<init>(View.java:67)
+	at processSale.startup.Startup.main(Startup.java:20)
+Caused by: processSale.model.InvalidQuantityException: An invalid quantity of -1 was entered.
+	at processSale.model.Sale.addItem(Sale.java:44)
+	at processSale.controller.Controller.registerItem(Controller.java:56)
+	... 3 more

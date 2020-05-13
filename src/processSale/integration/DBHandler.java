@@ -2,7 +2,6 @@ package processSale.integration;
 
 import java.lang.String;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 import processSale.dto.ItemDTO;
 import processSale.model.SaleLog;
@@ -13,13 +12,9 @@ import processSale.model.SaleLog;
 public class DBHandler {
     private static DBHandler instance;
 
-    private ArrayList<ItemDTO> dbItems = new ArrayList<ItemDTO>();/*(Arrays.asList(new ItemDTO(10, 0.06f, "Banana"),
-            new ItemDTO(5, 0.06f, "Apple"),
-            new ItemDTO(15, 0.25f, "Kiwi"),
-            new ItemDTO(3, 0.12f, "Potato"),
-            new ItemDTO(20, 0.12f, "Strawberries")));*/
-
-    private static ArrayList<SaleLog> sales = new ArrayList<SaleLog>();
+    private ArrayList<ItemDTO> dbItems = new ArrayList<ItemDTO>();
+    private ArrayList<Discount> discounts = new ArrayList<Discount>();
+    private ArrayList<SaleLog> sales = new ArrayList<SaleLog>();
 
     private DBHandler() {
         dbItems.add(new ItemDTO(10, 0.06f, "Banana"));
@@ -27,6 +22,11 @@ public class DBHandler {
         dbItems.add(new ItemDTO(15, 0.25f, "Kiwi"));
         dbItems.add(new ItemDTO(3, 0.12f, "Potato"));
         dbItems.add(new ItemDTO(20, 0.12f, "Strawberries"));
+
+        discounts.add(new Discount(new ItemDTO(20, 0.12f, "Strawberries"), 0, false, 0.25f)); // Strawberry sale for 25%
+        discounts.add(new Discount(null, 100, true, 0.1f)); // 10% sale if total price is >= 250
+        discounts.add(new Discount(null, 150, true, 0.2f)); // 20% sale if total price is >= 500
+        discounts.add(new Discount(null, 300, true, 0.3f)); // 30% sale if total price is >= 1000
     }
 
     /**
@@ -74,7 +74,7 @@ public class DBHandler {
      * @param saleLog Information to be saved.
      */
     public void logSale(SaleLog saleLog) {
-        if (saleLog.equals(null)) {
+        if (saleLog == null) {
             sales.add(saleLog);
         }
     }
@@ -85,6 +85,14 @@ public class DBHandler {
     public ArrayList<SaleLog> getSales() {
         return sales;
     }
+
+    /**
+     * @return All <code>discount</code> in the database.
+     */
+    public ArrayList<Discount> getDiscounts() {
+        return discounts;
+    }
+
 
     /**
      * Dummy method that would in a real system check the customer id against a database to make sure it is valid.

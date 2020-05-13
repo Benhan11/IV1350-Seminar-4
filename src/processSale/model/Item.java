@@ -12,26 +12,26 @@ public class Item {
     private String description;
     private int quantity;
 
-    protected Item(ItemDTO itemInfo, int quantity) {
+    public Item(ItemDTO itemInfo, int quantity) {
         price = itemInfo.getPrice();
         taxRate = itemInfo.getTaxRate();
         description = itemInfo.getDescription();
         this.quantity = quantity;
     }
 
-    protected int getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    protected float getTaxRate() {
+    public float getTaxRate() {
         return taxRate;
     }
 
-    protected String getDescription() {
+    public String getDescription() {
         return description;
     }
 
-    protected int getQuantity() {
+    public int getQuantity() {
         return quantity;   
     }
 
@@ -41,7 +41,7 @@ public class Item {
      * or larger than <code>Integer.MAX_VALUE</code>.
      * @param amount Amount to increase with.
      */
-    protected void increaseQuantity(int amount) {
+    public void increaseQuantity(int amount) {
         quantity += amount;
     }
 

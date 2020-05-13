@@ -68,8 +68,8 @@ public class View {
             printToDisplay();
 
             // Customer id in this case is just represented by a number.
-            contr.discountRequest(1111);
-            printToDisplay();
+            int priceAfterDiscount = contr.discountRequest(1111);
+            System.out.println("Running total (after discount(s)): " + priceAfterDiscount);
 
             amountPaid = 300;
             System.out.println("\nAmount paid: " + amountPaid);
